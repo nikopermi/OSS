@@ -23,17 +23,30 @@ function App() {
   //   </>
   // );
 
+
+
+  /*
+
+  <img src='http://localhost:3000/index.html'>
+
+  <img src='/front-logo.png'>
+
+  '/'
+
+
+  
+  */
   return(
     <>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap" rel="stylesheet"></link>
-    <div className='parent'>
-          <h1 className='title'>One Stop Shop</h1>
-          <textarea className='SearchBar'></textarea>
-    </div>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gsztatic.com" crossorigin/>
+      <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap" rel="stylesheet"></link>
+      <div className='parent'>
+        <img className='FrontLogo' src='/front-logo.png'/>
+        <h1 className='title'>One Stop Shop</h1>
+        <textarea className='SearchBar'/>
+      </div>
     </>
-
   );
 
 }
